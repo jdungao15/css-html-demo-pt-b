@@ -6,12 +6,29 @@ body {
   text-align: center;
   height: 50px;
 }
+/* Nav Bar */
 .nav {
-  border: 1px black dashed;
+  display: flex;
+  justify-content: center;
   height: 30px;
-  text-align: center;
+  background-color: #040d12;
+  /* text-align: center; */
+}
+.nav-buttons-group {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+li {
+  display: flex;
+  display: inline-block;
+  color: #93b1a6;
 }
 .hero {
+  background-image: url("https://c8.alamy.com/comp/2C1A20G/banner-raw-uncooked-ingredients-for-cooking-pasta-cooking-background-food-banner-2C1A20G.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   border: 1px black dashed;
   height: 180px;
   text-align: center;
